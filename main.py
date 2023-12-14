@@ -17,8 +17,10 @@ client = OpenAI(api_key = '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')
 nlp = spacy.load("en_core_web_sm")
 
 # Set up your email and password directly (replace with your actual credentials)
+
 email_address = "shivani285jain@gmail.com"
 email_password = "vsjg samf fblc ivvx"
+
 
 # Set up the IMAP server for Gmail
 imap_server = "imap.gmail.com"
