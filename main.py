@@ -13,9 +13,9 @@ import spacy
 nlp = spacy.load("en_core_web_sm")
  
 # Set up your email and password directly (replace with your actual credentials)
-email_address = "shivani285jain@gmail.com"
-email_password = "vsjg samf fblc ivvx"
- 
+email_address = "Your Email Address"
+email_password = "Your Password" #use app password, you need generate in google account , If you don't know please check it out. Password Looks like (vsjg samf fblc xyza)
+
 # Set up the IMAP server for Gmail
 imap_server = "imap.gmail.com"
  
