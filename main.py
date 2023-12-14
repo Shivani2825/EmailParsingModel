@@ -12,14 +12,14 @@ import spacy
 from openai import OpenAI
 import json
 
-client = OpenAI(api_key = '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')
+client = OpenAI(api_key = 'Your API-Key')
 
 nlp = spacy.load("en_core_web_sm")
 
 # Set up your email and password directly (replace with your actual credentials)
 
-email_address = "shivani285jain@gmail.com"
-email_password = "vsjg samf fblc ivvx"
+email_address = "yourmail@gmail.com"
+email_password = "your password"
 
 
 # Set up the IMAP server for Gmail
@@ -28,8 +28,8 @@ imap_server = "imap.gmail.com"
 # Set up the SMTP server for sending acknowledgment emails
 smtp_server = "smtp.gmail.com"
 smtp_port = 587
-smtp_username = "shivani285jain@gmail.com"
-smtp_password = "vsjg samf fblc ivvx"
+smtp_username = "yourmail@gmail.com"
+smtp_password = "your password"
 
 # Global variable to store email body
 email_body = ""
